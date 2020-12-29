@@ -19,7 +19,9 @@ Route::get('/', function () {
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+    if(auth()->user()->name == "user"){
+        return view('dashboard.student');
+    }
 })->name('dashboard');
 
 Route::resource('todo', TodoController::class)->middleware('auth:sanctum');
