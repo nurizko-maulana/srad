@@ -27,6 +27,11 @@ class ApplicationController extends Controller
         //
     }
 
+    public function export()
+    {
+        //
+    }   
+
     /**
      * Store a newly created resource in storage.
      *
