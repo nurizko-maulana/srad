@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Student Dashoard') }}
+            {{ __('SRAD Staff Dashboard') }}
         </h2>
     </x-slot>
 
@@ -9,7 +9,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
-                    <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
+                    <div class="p-6 sm:px-20 bg-white">
                         <div class="my-3 text-2xl text-center font-bold">
                             Student's Information
                         </div>
@@ -31,8 +31,38 @@
                     </div>
                 </div>
 
-                {{-- APPLICATION STATUS --}}
                 <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
+                    <div class="p-6 sm:px-20 bg-white">
+                        <div class="my-3 text-2xl text-center font-bold">
+                            Supervisor Information
+                        </div>
+                    </div>
+                
+                    <div class="mt-6 text-gray-700">
+                        <p>
+                            Date Completed    : Nurizko Maulana
+                        </p>
+                        <p>
+                            name   : nurizko.maulana@gmail.com
+                        </p>
+                        <p>
+                            Email : 2018/2019/2
+                        </p>
+                        <p>
+                            Phome : Bachelor of Software Engineering
+                        </p>
+                        <p>
+                            Faculty : Bachelor of Software Engineering
+                        </p>
+                        <p>
+                            Research title : Bachelor of Software Engineering
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                {{-- APPLICATION STATUS --}}
+                <div class="p-6 sm:px-20 bg-white ">
                     <div class="my-3 text-2xl text-center font-bold">
                         Status Information
                     </div>

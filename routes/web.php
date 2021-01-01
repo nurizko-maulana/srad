@@ -21,6 +21,14 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     if(auth()->user()->name == "user"){
         return view('dashboard.student');
+    }else if(auth()->user()->name == "admin"){
+        return view('dashboard.staff');
+    }
+})->name('dashboard');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/evaluate', function () {
+    if(auth()->user()->name == "admin"){
+        return view('evaluate.index');
     }
 })->name('dashboard');
 
