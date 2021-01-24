@@ -15,6 +15,13 @@ class CreateApplicationTable extends Migration
     {
         Schema::create('application', function (Blueprint $table) {
             $table->id();
+            $table->enum("category", ["UNDERGRADUATE","POSTGRADUATE"]);
+            $table->boolean("isReviewed");
+            $table->boolean("reviewed_date");
+            $table->boolean("isAssignSupervisor");
+            $table->boolean("assign_supervisor");
+            $table->boolean("isReviewed");
+            $table->boolean("isReviewed");
             $table->timestamps();
         });
     }
