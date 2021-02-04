@@ -16,30 +16,6 @@ class ApplicationController extends Controller
     {
         //
     }
-
-    public function checksubscribtion()
-    {
-        //
-    }
-
-    public function subscribeCampusNew()
-    {
-        news->subscribeCampuseNews();
-
-    }
-
-
-
-    public function registerUndergaduate()
-    {
-        //
-    }
-
-    public function registerPostgraduate()
-    {
-        STUDENT->registerPostgradutae();
-        retun
-    }
     /**
      * Show the form for creating a new resource.
      *

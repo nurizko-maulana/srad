@@ -38,6 +38,11 @@ class CreateNewUser implements CreatesNewUsers
         });
     }
 
+    public function createUndergraduate()
+    { 
+        
+    }
+
     /**
      * Create a personal team for the user.
      *

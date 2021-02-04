@@ -15,6 +15,7 @@ class CreateApplicationTable extends Migration
     {
         Schema::create('application', function (Blueprint $table) {
             $table->id();
+            $table->string("");
             $table->timestamps();
         });
     }
