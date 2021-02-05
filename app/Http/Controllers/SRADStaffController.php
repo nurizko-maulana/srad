@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Student;
+use App\Models\SRADStaff;
 use Illuminate\Http\Request;
 
-class StudentController extends Controller
+class SRADStaffController extends Controller
 {
-    /**
+     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -37,7 +37,7 @@ class StudentController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Student $request)
+    public function store(SRADStaff $request)
     {
         //
     }
@@ -48,7 +48,7 @@ class StudentController extends Controller
      * @param  \App\Models\SRADStaff  $application
      * @return \Illuminate\Http\Response
      */
-    public function show(Student $application)
+    public function show(SRADStaff $application)
     {
         //
     }
@@ -56,10 +56,10 @@ class StudentController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Student  $application
+     * @param  \App\Models\SRADStaff  $application
      * @return \Illuminate\Http\Response
      */
-    public function edit(Student $application)
+    public function edit(SRADStaff $application)
     {
         //
     }
@@ -68,10 +68,10 @@ class StudentController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Student  $application
+     * @param  \App\Models\Application  $application
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Student $application)
+    public function update(Request $request, SRADStaff $application)
     {
         //
     }
@@ -82,7 +82,7 @@ class StudentController extends Controller
      * @param  \App\Models\SRADStaff  $application
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Student $application)
+    public function destroy(SRADStaff $application)
     {
         //
     }

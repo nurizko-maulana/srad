@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Student;
+use App\Models\FacultyAdmissionStaff;
 use Illuminate\Http\Request;
 
-class StudentController extends Controller
+class FacultyAdmissionController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -37,7 +37,7 @@ class StudentController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Student $request)
+    public function store(Request $request)
     {
         //
     }
@@ -45,10 +45,10 @@ class StudentController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\SRADStaff  $application
+     * @param  \App\Models\FacultyAdmissionStaff  $application
      * @return \Illuminate\Http\Response
      */
-    public function show(Student $application)
+    public function show(FacultyAdmissionStaff $application)
     {
         //
     }
@@ -56,10 +56,10 @@ class StudentController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Student  $application
+     * @param  \App\Models\FacultyAdmissionStaff  $application
      * @return \Illuminate\Http\Response
      */
-    public function edit(Student $application)
+    public function edit(FacultyAdmissionStaff $application)
     {
         //
     }
@@ -68,10 +68,10 @@ class StudentController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Student  $application
+     * @param  \App\Models\Application  $application
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Student $application)
+    public function update(Request $request, FacultyAdmissionStaff $application)
     {
         //
     }
@@ -79,10 +79,10 @@ class StudentController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\SRADStaff  $application
+     * @param  \App\Models\Application  $application
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Student $application)
+    public function destroy(FacultyAdmissionStaff $application)
     {
         //
     }

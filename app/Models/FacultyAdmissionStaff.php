@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-Interface Student 
+class FacultyAdmissionStaff extends Model
 {
-    public function create($type);
+    use HasFactory;
 }
