@@ -84,6 +84,22 @@ class ApplicationController extends Controller
      */
     public function destroy(Application $application)
     {
-        //
+        
+    }
+
+    public function sradAccept(){
+        
+    }
+
+    public function facultyAccept(){
+
+    }
+
+    public function sradReject(){
+        
+    }
+
+    public function facultyReject(){
+        
     }
 }
